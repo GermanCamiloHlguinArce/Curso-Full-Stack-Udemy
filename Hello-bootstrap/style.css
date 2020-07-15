@@ -1,0 +1,17 @@
+.container {
+    background: blueviolet;
+    margin-bottom: 50px;
+}
+
+.h2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.container-fluid {
+    background: greenyellow;
+}
+
+.col-12 {
+    border: 2px solid #000;
+}
