@@ -1,0 +1,148 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background: #f2f2f2;
+    line-height: 40px;
+    padding-right: 30px;
+}
+
+.footer .fila {
+    border-top: 1px solid #e4e4e4;
+}
+
+.footer a, .anchor-style {
+    color: #5f6368;
+    padding-left: 27px;
+    user-select: none;
+    text-decoration: none;
+
+    font-size: 14px;
+}
+.grid-icon{
+    max-height: 20px;
+}
+
+.izquierda {
+    float: left;
+}
+
+.derecha {
+    float: right;
+
+}
+
+.barra-superior {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding:15px;
+    font-size:13px;
+}
+
+.barra-superior a {
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.barra-superior .boton{
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    color: #ffffff;
+    margin-left:15px;
+    cursor:pointer;
+}
+
+
+.contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.contenedor .logo {
+    max-width: 272px;
+}
+
+.botones button {
+
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.input-box {
+    border-radius: 24px;
+    display: block;
+    margin: 25px auto;
+    border-color: rgba(223, 225, 229, 0);
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    padding: 12px 30px;
+    width: 500px;
+    position: relative;
+}
+
+.input-box > .right-icon {
+    position: absolute;
+    right: 17px;
+    top: 10px;
+    height: 28px;
+}
+
+.input-box > .left-icon {
+    position: absolute;
+    left: 17px;
+    top: 15px;
+    height: 15px;
+}
+
+.input-box input {
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.input-box input:focus {
+    outline: none;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.idiomas {
+    margin-top: 40px;
+}
+
+.margin-top-30, .idiomas{
+    font-size:13px;
+}
+.margin-top-30 a, .idiomas a{
+    color: #1a0dab;
+    margin-left:10px;
+}
